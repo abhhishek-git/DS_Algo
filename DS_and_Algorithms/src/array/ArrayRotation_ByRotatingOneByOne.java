@@ -10,7 +10,8 @@ public class ArrayRotation_ByRotatingOneByOne {
 
 	private static void displayArray(int[] arr) {
 		// TODO Auto-generated method stub
-		for(int i=0; i<arr.length;i++) {
+		int len = arr.length;
+		for(int i=0; i<len;i++) {
 			System.out.print(arr[i]+ " ");
 		}
 	}
